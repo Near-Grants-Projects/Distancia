@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+}
+
+@layer components {
+  .header {
+    @apply top-0 z-[1000] flex h-[72px] mx-auto items-center px-10 md:px-12 shadow-sm text-white md:text-black border-b;
+  }
+}
